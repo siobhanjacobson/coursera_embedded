@@ -30,7 +30,7 @@
  * Print the median, mean, maximum, minimum and the sorted given array of
  * integers.
  *
- * @param unsigned char data[]: array of integers
+ * @param unsigned char * data: array of integers
  *
  * @return void
  */
@@ -41,7 +41,7 @@ void print_statistics(unsigned char * data, int length);
  *
  * Print the given array in a sorted, readable format.
  *
- * @param unsigned char data[]: Array of integers
+ * @param unsigned char * data: Array of integers
  * @param int length: Length of data
  *
  * @return void
@@ -53,7 +53,7 @@ void print_array(unsigned char *  data, int length);
  *
  * Find and return the median of a given array of integers.
  *
- * @param unsigned char data[]: array of integers
+ * @param unsigned char * data: array of integers
  * @param int length: Length of data
  *
  * @return int: the median
@@ -65,7 +65,7 @@ int find_median(unsigned char * data, int length);
  *
  * Find and return the mean of a given array.
  *
- * @param unsigned char data[]: array of integers
+ * @param unsigned char * data: array of integers
  * @param int length: Length of data
  *
  * @return int: the mean
@@ -77,7 +77,7 @@ int find_mean(unsigned char * data, int length);
  *
  * Find and return the maximum of a given array of integers.
  *
- * @param unsigned char data[]: array of integers
+ * @param unsigned char * data: array of integers
  * @param int length: Length of data
  *
  * @return int: the maximum
@@ -89,7 +89,7 @@ int find_maximum(unsigned char * data, int length);
  *
  * Find and return the minimum of a given array of integers.
  *
- * @param unsigned char data[]: array of integers
+ * @param unsigned char * data: array of integers
  * @param int length: Length of data
  *
  * @return int: the minimum
@@ -99,7 +99,7 @@ int find_minimum(unsigned char * data, int length);
 /**
  * @brief Sort a given array.
  *
- * Sort given array of integers from lowest to higest.
+ * Sort given array of integers from lowest to highest.
  *
  * @param data: array of integers
  *
