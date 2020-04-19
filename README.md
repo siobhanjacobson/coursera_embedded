@@ -1,1 +1,2 @@
-/* Add Author and Project Details here */
+Assignment 1 for the Embedded Systems course on Coursera.
+
